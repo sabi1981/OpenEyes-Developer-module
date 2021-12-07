@@ -57,4 +57,5 @@ edit the 'modules' part
 ),
 ```
 application.log on screen
-![image](https://user-images.githubusercontent.com/7114290/144901496-a9311c7a-e2ac-4789-b473-2d699cc088de.png)
+![image](https://user-images.githubusercontent.com/7114290/145087048-019bbf07-4088-44e1-92e3-c6d55d3bf978.png)
+
