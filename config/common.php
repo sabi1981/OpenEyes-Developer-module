@@ -13,6 +13,24 @@
  * @license http://www.gnu.org/licenses/agpl-3.0.html The GNU Affero General Public License V3.0
  */
 
-$config = [];
+$config = [
+    'components' => [
+        'clientScript' => [
+            'packages' => [
+                'developer' => [
+                    'basePath' => 'application.modules.developer.assets',
+                    'js' => ['js/developer.js']
+                ]
+            ],
+        ]
+    ],
+    'params' =>[
+        'admin_structure' => [
+            'Developer' => [
+                'Application log' => '/developer/logViewer',
+            ],
+        ],
+    ]
+];
 
 return $config;
