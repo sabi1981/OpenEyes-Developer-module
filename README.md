@@ -56,5 +56,8 @@ edit the 'modules' part
     'developer'
 ),
 ```
+Remove all elements shortcut
+![image](https://user-images.githubusercontent.com/7114290/145892589-a8e8b973-dd34-4117-b545-a69caad6f1bc.png)
+
 application.log on screen
 ![image](https://user-images.githubusercontent.com/7114290/145087048-019bbf07-4088-44e1-92e3-c6d55d3bf978.png)
