@@ -39,6 +39,8 @@ class DeveloperModule extends \BaseEventTypeModule
             'developer.views.*',
             'developer.components.*',
             'developer.controllers.*',
+
+            'developer.extensions.components.*',
         ));
 
         $this->moduleShortSuffix = "OpenEyes Developer";

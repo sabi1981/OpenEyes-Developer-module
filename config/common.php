@@ -22,7 +22,12 @@ $config = [
                     'js' => ['js/developer.js']
                 ]
             ],
-        ]
+        ],
+        'assetManager' => array(
+            'class' => 'application.modules.developer.extensions.components.DeveloperAssetManager',
+            // Use symbolic links to publish the assets when in debug mode.
+            'linkAssets' => defined('YII_DEBUG') && YII_DEBUG,
+        ),
     ],
     'params' =>[
         'admin_structure' => [
